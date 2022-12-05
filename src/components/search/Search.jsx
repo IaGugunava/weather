@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
-import { API_URL, apiOptions } from "../api";
+import { API_URL, apiOptions } from "../../api";
 
 const Search = ({ onSearchChange }) => {
     const [search, setSearch] = useState(null);

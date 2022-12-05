@@ -2,7 +2,7 @@ import Search from './components/search/Search';
 import CurrentWeather from './components/current-weather/CurrentWeather';
 import Forecast from './components/change-background/forecast/Forecast';
 import './App.scss';
-import {WEATHER_API_URL, WEATHER_API_KEY} from './components/api'
+import {WEATHER_API_URL, WEATHER_API_KEY} from './api'
 import { useState } from 'react';
 
 function App() {
