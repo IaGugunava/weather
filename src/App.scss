@@ -1,0 +1,26 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  @media(max-width: 1599px) {
+      width: 90%;
+  }
+  @media(max-width: 1199px) {
+      // width: 100%;
+      margin-left: initial;
+      margin-right: initial;
+      padding-left: 39px;
+      padding-right: 39px;
+  }
+
+  @media(max-width: 767px) {
+      padding-left: 32px;
+      padding-right: 32px;
+  }
+  @media(max-width: 575px) {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .search{
+    margin: 0 30px;
+  }
+}
